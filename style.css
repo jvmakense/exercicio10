@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: rgba(0, 0, 0, 0.774);
+    text-align: center;
+}
+
+#adicionarTarefa input {
+    height: 2rem;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    color:black ;
+}
+
+#adicionarTarefa button {
+    height: 2rem;
+    width: 2rem;
+    background: green;
+    cursor: pointer;
+}
+
+#lista {
+    margin: 20px auto;
+    max-width: 500px;
+    position: relative;
+}
+
+#lista ul li {
+    text-align: start;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+#lista ul li.riscada {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+#lista ul li button.excluir {
+    background-color: red;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
